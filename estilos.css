@@ -4,10 +4,8 @@
      font-family: sans-serif;
  }
 .Inicio {
-    background-image: url("Images/FondoHori.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("Images/desk-1220052.jpg");
+    background-size: 100%;
 } 
 
 
@@ -21,6 +19,7 @@ header {
    float: right;
    margin-right: 10px;
    margin-top: 3px;
+   position: clear;
 }
 .navegacion li {
     list-style: none;
@@ -35,16 +34,16 @@ header h1 {
 }
 .Inicio img {
     display: inline-block;
-    margin-top: 60px;
-    margin-left: 20%;
-    width: 600px;
+    margin-top: 90px;
+    margin-left: 5%;
+    width: 700px;
     border: 1px solid black;
-    
+    border-radius: 10px;
 }
 .botones {
     float: right;
-    padding-top: 350px;
-    margin-right: 200px;
+    padding-top: 300px;
+    margin-right: 400px;
     color: #ffffff;
 }
 .botones blockquote {
@@ -57,8 +56,9 @@ header h1 {
     background-color: #a4b0be;
 }
 .Inicio p {
-    margin-top: 50px;
-    font-size: 20px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    font-size: 30px;
+    padding-bottom: 100px;
     margin-left: 10px;
+    color: #f1f2f6;
 }
