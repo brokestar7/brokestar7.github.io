@@ -3,35 +3,42 @@
      margin: 0;
      font-family: sans-serif;
  }
+
+ .navegacion {
+    color: #ffffff;
+    background-color: #1e90ff;
+    position: sticky; top:0%;
+    width: 100%;
+ 
+}
+section h1 {
+    float: left;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.menu {  
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    font-size: 15px;
+ }
+
+ .menu li {
+    list-style: none;
+    padding: 5px;
+    display: inline;
+ }
+
 .Inicio {
     background-image: url("Images/desk-1220052.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
+    border: 2px solid;
 } 
 
-
-header {
-    color: #ffffff;
-    background-color: #1e90ff;
-    position: fixed;
-    width: 100%;
-}
-.navegacion {
-   float: right;
-   margin-right: 10px;
-   margin-top: 3px;
-   position: clear;
-}
-.navegacion li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-}
-header h1 {
-    display: inline-block;
-    margin-left: 42%;
-    font-size: 22px;
-    margin-top: 3px;
-}
 .Inicio img {
     display: inline-block;
     margin-top: 90px;
@@ -42,8 +49,8 @@ header h1 {
 }
 .botones {
     float: right;
-    padding-top: 300px;
-    margin-right: 400px;
+    padding-top: 320px;
+    margin-right: 450px;
     color: #ffffff;
 }
 .botones blockquote {
@@ -57,8 +64,7 @@ header h1 {
 }
 .Inicio p {
     margin-top: 100px;
-    font-size: 30px;
-    padding-bottom: 100px;
+    font-size: 25px;
     margin-left: 10px;
     color: #f1f2f6;
 }
