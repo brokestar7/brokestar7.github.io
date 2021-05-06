@@ -11,12 +11,11 @@
     width: 100%;
  
 }
-section h1 {
+.navegacion h1 {
     float: left;
     font-size: 20px;
-    margin-top: 7px;
-    margin-bottom: 10px;
     margin-left: 20px;
+    margin-top: 8px;
 }
 .menu {  
     margin-right: 10px;
@@ -34,18 +33,18 @@ section h1 {
 
 .Inicio {
     background-image: url("Images/desk-1220052.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     border: 2px solid;
 } 
 
 .Inicio img {
     display: inline-block;
-    margin-top: 90px;
-    margin-left: 5%;
+    margin-top: 73px;
+    margin-left: 50px;
     width: 700px;
-    border: 1px solid black;
     border-radius: 10px;
+    position: static;
 }
 .botones {
     float: right;
@@ -67,4 +66,5 @@ section h1 {
     font-size: 25px;
     margin-left: 10px;
     color: #f1f2f6;
+    margin-bottom: 60px;
 }
