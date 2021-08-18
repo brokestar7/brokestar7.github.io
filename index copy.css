@@ -5,7 +5,7 @@
 
 body{
     color: #FFFFFF;
-    font-family: sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     background-color: #C9D8B6;
 }
@@ -92,12 +92,32 @@ hr {
 }
 
 .textoInicio {
-    color: #515E63;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.textoInicio>hr {
+    margin: 10px 0;
+    width: 60%;
+}
+.presentacion {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.linea1 {
+    font-size: 20px;
+}
+
+.linea2 {
+    font-size: 22px;
 }
 
 .imgPerfil>img {
     width: 300px;
-    height: 400px;
+    height: 350px;
     border-radius: 10px;
     margin-right: 40px;
 }
