@@ -91,7 +91,7 @@ body{
     margin: 80px 20px 0 40px;    
     min-height: calc(100vh - 80px - 244px);
 }
-
+/* a partir de aqui css para el contenido  */
 .textoInicio {
     color: #FFFFFF;
     font-size: 20px;
@@ -111,13 +111,13 @@ body{
     border-radius: 10px;
 }
 
-.bar4 {
+/* .bar4 {
     width: 80%;
     margin: 0 auto;
     margin-top: 100px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
-}
+} */
 
 .textoInicio2 {
     margin-top: 40px;
@@ -154,9 +154,12 @@ body{
     margin-right: 20px;
 }
 
+/* A partir de aqui es el css del Footer */
 footer {
+    margin-top: 102px;
     height: 60px;
     padding: 20px;
+    background-color: #515E63;
 }
 
 footer>div{

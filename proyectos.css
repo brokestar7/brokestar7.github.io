@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #FFFFFF;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  background-color: #C9D8B6;
+}
+.bar1 {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.contenido {
+  background-color: #57837B;
+  max-width: 992px;
+  margin: 0 auto;
+  /*height: 100vh; || Hace  que el height ocupe toda la pantalla del dispositivo*/
+}
+
+.header {
+  width:100%;
+  height: 80px;
+  left: 0;
+  top: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+.navLink {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.logo{
+  font-size: 25px;
+  padding: 0 40px;
+  line-height: 75px;
+  cursor:default;
+}
+
+.barMenu { /*boton del menu movil*/
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 60px;
+  cursor: pointer;
+  display: none;
+}
+
+.navMenu{
+  display: flex;
+  margin-right: 40px;
+  list-style: none;
+}
+
+.navMenuItem {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 80px;
+  text-transform: uppercase;
+  width: max-content;
+}
+
+.navMenuLink{
+  padding: 12px 12px;
+  border-radius: 3px;
+}
+
+.navSpan:hover{
+  padding-bottom: 4px;
+  border-bottom: 4px solid #FFFFFF;
+}
+/* A partir de aqui es el css de Proyectos */
+
+.contentProyect {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 10px;
+  max-width: 992px;
+  margin: 80px 20px 0 40px;    
+  min-height: calc(100vh - 80px - 244px);
+}
+
+.carrusel {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  max-width: 600px;
+  gap: 10px;
+}
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.carruselFotos {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  object-fit: contain;
+}
+
+.fotosCarrusel {
+  width: 550px;
+  height: 450px;
+  background-color: #515E63;
+  margin-left: 20px;
+  /* border-radius: 15px; */
+  border: 3px solid darkslategrey;
+  margin-right: 5px;
+  padding: 20px 0 20px 0;
+}
+
+.carruselMenu{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.fotosCarruselMenu {
+  width: 80px;
+  height: 70px;
+  border: 10px solid darkslategrey;
+  /* border-radius: 15px; */
+}
+
+.fotosCarruselMenu:hover {
+  border: none;
+}
+
+
+/* A partir de aqui es el css de Footer */
+
+footer {
+  margin-top: 102px;
+  height: 60px;
+  padding: 20px;
+  background-color: #515E63;
+}
+
+footer>div{
+  margin: 0 auto;
+}
+
+.textoFooter {
+  text-align: center;
+}
+
+.iCorazon {
+  font-size: 15px;
+}
