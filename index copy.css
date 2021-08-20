@@ -9,7 +9,7 @@ body{
     
     background-color: #C9D8B6;
 }
-hr {
+.bar1 {
     width: 80%;
     margin: 0 auto;
     border: 1px solid #FFFFFF;
@@ -88,7 +88,7 @@ hr {
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
     max-width: 992px;
-    margin: 80px 40px 0 40px;    
+    margin: 80px 20px 0 40px;    
 }
 
 .textoInicio {
@@ -96,10 +96,24 @@ hr {
     font-size: 20px;
 }
 
-.textoInicio>hr {
+.bar2 {
     margin: 10px 0;
     width: 60%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
 }
+
+.bar3{
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.textoInicio2 {
+    margin-top: 40px;
+}
+
 .presentacion {
     font-size: 30px;
     font-weight: bold;
@@ -115,11 +129,20 @@ hr {
     font-size: 22px;
 }
 
+.linea3 {
+    font-size: 22px;
+}
+
+.textoBold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .imgPerfil>img {
     width: 300px;
-    height: 350px;
+    height: 300px;
     border-radius: 10px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 
@@ -155,14 +178,27 @@ hr {
 
     .barMenu{
         display: block;
+        padding: 0 20px;
     }
 
     .navMenuItem {
         line-height: 70px;
     }
     /*------------------------- Aqui empieza Inicio M---------------------------------------------*/
+    
+    body {
+        background-color: #57837B;
+    }
+
+    .header {
+        position: fixed;
+        background-color: #57837B;
+    }
+    
     .inicio {
-        margin-top: 10px;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        margin: 100px 20px 0 20px;    
     }
 
     .carrusel {
@@ -181,5 +217,19 @@ hr {
         width: 420px;
         height: 320px;
         
+    }
+
+    .textoInicio {
+        margin: 0 auto;
+    }
+    
+    .textoInicio2 {
+        margin-top: 10px;
+    }
+
+    .imgPerfil {
+        margin: 0 auto;
+        order: -1;
+        margin-bottom: 30px;
     }
 }
