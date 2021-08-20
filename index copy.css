@@ -20,7 +20,8 @@ body{
     background-color: #57837B;
     max-width: 992px;
     margin: 0 auto;
-    height: 100vh; /*Hace  que el height ocupe toda la pantalla del dispositivo*/
+    min-height: 100vh;
+    /*height: 100vh; || Hace  que el height ocupe toda la pantalla del dispositivo*/
 }
 
 .header {
