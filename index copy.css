@@ -20,7 +20,6 @@ body{
     background-color: #57837B;
     max-width: 992px;
     margin: 0 auto;
-    min-height: 100vh;
     /*height: 100vh; || Hace  que el height ocupe toda la pantalla del dispositivo*/
 }
 
@@ -90,6 +89,7 @@ body{
     column-gap: 10px;
     max-width: 992px;
     margin: 80px 20px 0 40px;    
+    min-height: calc(100vh - 80px - 244px);
 }
 
 .textoInicio {
@@ -107,6 +107,14 @@ body{
 .bar3{
     margin: 20px 0;
     width: 80%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.bar4 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
     border: 1px solid #FFFFFF;
     border-radius: 10px;
 }
@@ -144,6 +152,23 @@ body{
     height: 300px;
     border-radius: 10px;
     margin-right: 20px;
+}
+
+footer {
+    height: 60px;
+    padding: 20px;
+}
+
+footer>div{
+    margin: 0 auto;
+}
+
+.textoFooter {
+    text-align: center;
+}
+
+.iCorazon {
+    font-size: 15px;
 }
 
 
@@ -232,5 +257,9 @@ body{
         margin: 0 auto;
         order: -1;
         margin-bottom: 30px;
+    }
+    footer {
+        margin-top: 10px;
+        background-color: #515E63;
     }
 }
