@@ -154,6 +154,56 @@ body{
     margin-right: 20px;
 }
 
+/* A partir de aqui es el css de Proyectos */
+
+.carrusel {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    gap: 10px;
+}
+
+.carrusel ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.carruselFotos {
+    display: flex;
+    gap: 20px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.fotosCarrusel {
+    width: 580px;
+    height: 480px;
+    background-color: #515E63;
+    /* border-radius: 15px; */
+    border: 3px solid darkslategrey;
+    margin-right: 5px;
+    padding: 20px 0 20px 0;
+}
+
+.carruselMenu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.fotosCarruselMenu {
+    width: 80px;
+    height: 70px;
+    border: 10px solid darkslategrey;
+    /* border-radius: 15px; */
+}
+
+.fotosCarruselMenu:hover {
+    border: none;
+}
+
 /* A partir de aqui es el css del Footer */
 footer {
     margin-top: 102px;
@@ -230,8 +280,11 @@ footer>div{
         margin: 100px 20px 0 20px;    
     }
 
+/* a partir de aqui empieza el css Carrusel */
+
     .carrusel {
-        max-width: 500px;
+        width: 80%;        
+        /* max-width: 500px; */
         margin: 0 auto;
     }
 
@@ -248,6 +301,8 @@ footer>div{
         
     }
 
+    /* A partir de aqui epmpieza el css del contenido Inicio */
+
     .textoInicio {
         margin: 0 auto;
     }
@@ -261,6 +316,9 @@ footer>div{
         order: -1;
         margin-bottom: 30px;
     }
+
+    /* A partir de aqui empieza el css del footer */
+
     footer {
         margin-top: 10px;
         background-color: #515E63;
