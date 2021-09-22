@@ -1,16 +1,15 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    color: #FFFFFF;
-
 }
 
 body{
-    font-family: sans-serif;
+    color: #FFFFFF;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     background-color: #C9D8B6;
 }
-hr {
+.bar1 {
     width: 80%;
     margin: 0 auto;
     border: 1px solid #FFFFFF;
@@ -21,7 +20,7 @@ hr {
     background-color: #57837B;
     max-width: 992px;
     margin: 0 auto;
-    height: 100vh; /*Hace  que el height ocupe toda la pantalla del dispositivo*/
+    /*height: 100vh; || Hace  que el height ocupe toda la pantalla del dispositivo*/
 }
 
 .header {
@@ -40,6 +39,7 @@ hr {
 
 .navLink {
     text-decoration: none;
+    color: #FFFFFF;
 }
 
 .logo{
@@ -84,61 +84,159 @@ hr {
 }
 /*------------------------ A partir de aqui es el Estilo del Inicio ------------------------------------------*/
 .inicio {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
     max-width: 992px;
-    margin: 0 auto;
-    margin-top: 80px;
+    margin: 80px 20px 0 40px;    
+    min-height: calc(100vh - 80px - 244px);
+}
+/* a partir de aqui css para el contenido  */
+.textoInicio {
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
-.carrusel {
+.bar2 {
+    margin: 10px 0;
+    width: 60%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.bar3{
+    margin: 20px 0;
+    width: 80%;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+/* .bar4 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+} */
+
+.textoInicio2 {
+    margin-top: 40px;
+}
+
+.presentacion {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 38px;
+    margin: 20px 0;
+}
+
+.linea1 {
+    font-size: 20px;
+}
+
+.linea2 {
+    font-size: 22px;
+}
+
+.linea3 {
+    font-size: 22px;
+}
+
+.textoBold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imgPerfil>img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* A partir de aqui es el css de Proyectos */
+
+.contentProyect {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+    max-width: 992px;
+    margin: 80px 20px 0 40px;    
+    min-height: calc(100vh - 80px - 244px);
+    }
+
+    .carrusel {
     display: flex;
     flex-direction: column;
     margin-left: 20px;
     max-width: 600px;
     gap: 10px;
-}
+    }
 
-.carrusel ul {
+    .carrusel ul {
     list-style: none;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
-}
+    }
 
-.carruselFotos {
+    .carruselFotos {
     display: flex;
     gap: 20px;
     overflow: hidden;
     object-fit: contain;
-}
+    }
 
-.fotosCarrusel {
+    .fotosCarrusel {
     width: 550px;
     height: 450px;
-    background-color: #515E63;
     margin-left: 20px;
     /* border-radius: 15px; */
     border: 3px solid darkslategrey;
+    border-radius: 10px;
     margin-right: 5px;
-    padding: 20px 0 20px 0;
-}
+    }
 
-.carruselMenu{
+    .carruselMenu{
     display: flex;
     gap: 10px;
     justify-content: center;
-}
+    }
 
-.fotosCarruselMenu {
+    .fotosCarruselMenu {
     width: 80px;
     height: 70px;
     border: 10px solid darkslategrey;
+    border-radius: 5px;
     /* border-radius: 15px; */
+    }
+
+    .fotosCarruselMenu:hover {
+    border: none;
+    }
+
+/* A partir de aqui es el css del Footer */
+footer {
+    margin-top: 102px;
+    height: 60px;
+    padding: 20px;
+    background-color: #515E63;
 }
 
-.fotosCarruselMenu:hover {
-    border: none;
+footer>div{
+    margin: 0 auto;
 }
-/*------------------------MOBILE---------------------------- */
+
+.textoFooter {
+    text-align: center;
+}
+
+.iCorazon {
+    font-size: 15px;
+}
+
+
+/*?------------------------MOBILE---------------------------- */
 @media (max-width: 768px) {
     hr {
         display: none;
@@ -170,18 +268,49 @@ hr {
 
     .barMenu{
         display: block;
+        padding: 0 20px;
     }
 
     .navMenuItem {
         line-height: 70px;
     }
     /*------------------------- Aqui empieza Inicio M---------------------------------------------*/
+    
+    body {
+        background-color: #57837B;
+    }
+
+    .header {
+        position: fixed;
+        background-color: #57837B;
+    }
+    
     .inicio {
+        grid-template-columns: 1fr;
+        text-align: center;
+        row-gap: 50px;
+        margin: 100px 20px 0 20px;  
+        min-height: calc(100vh - 18px - 244px);  
+    }
+
+    .textoInicio {
+        margin: 0 auto;
+    }
+    
+    .textoInicio2 {
         margin-top: 10px;
     }
 
+    .imgPerfil {
+        margin: 0 auto;
+        order: -1;
+        margin-bottom: 30px;
+    }
+
+    /* Aqui empieza Carrusel M */
+    
     .carrusel {
-        max-width: 500px;
+        max-width: 450px;
         margin: 0 auto;
     }
 
@@ -196,5 +325,10 @@ hr {
         width: 420px;
         height: 320px;
         
+    }
+
+    .contentProyect {
+        margin: 100px 20px 0 40px;    
+        min-height: calc(100vh - 18px - 244px);
     }
 }
