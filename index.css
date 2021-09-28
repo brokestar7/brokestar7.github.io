@@ -7,7 +7,7 @@ body{
     color: #FFFFFF;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
-    background-color: #C9D8B6;
+    background-color: #57837B;
 }
 .bar1 {
     width: 80%;
@@ -66,7 +66,7 @@ body{
 }
 
 .navMenuItem {
-    font-size: 18px;
+    font-size: 20px;
     margin: 0 10px;
     line-height: 80px;
     text-transform: uppercase;
@@ -94,7 +94,6 @@ body{
 /* a partir de aqui css para el contenido  */
 .textoInicio {
     color: #FFFFFF;
-    font-size: 20px;
 }
 
 .bar2 {
@@ -131,20 +130,20 @@ body{
 }
 
 .linea1 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .linea2 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .linea3 {
-    font-size: 22px;
+    font-size: 24px;
 }
 
 .textoBold {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 32px;
 }
 
 .imgPerfil>img {
@@ -161,7 +160,7 @@ body{
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
     max-width: 992px;
-    margin: 80px 20px 0 40px;    
+    margin: 10px 20px 0 40px;    
     min-height: calc(100vh - 80px - 244px);
     }
 
@@ -213,6 +212,45 @@ body{
 
     .fotosCarruselMenu:hover {
     border: none;
+    }
+
+/* A partir de aqui es el css de Sobre Mi */
+    .sobreMi{
+        min-height: calc(100vh - 80px - 244px);
+    }    
+
+    .tituloSobreMi{
+        font-size: 50px;
+        margin: 80px 20px 0 40px;
+    }
+    .textoSobreMi{
+        font-size: 24px;
+        margin: 50px 15% 0 70px;
+        margin-left: 10%;
+        line-height: 30px;
+    }
+    .textoSobreMi2{
+        font-size: 24px;
+        margin: 50px 15% 0 70px;
+        margin-left: 10%;
+        line-height: 30px;
+    }
+
+    .listaContactos{
+        font-size: 24px;
+        margin: 50px 15% 0 70px;
+        margin-left: 10%;
+        line-height: 30px;
+        list-style: none;
+    }
+
+    .contactame{
+        font-size: 30px;
+    }
+
+    .enlaceContacto{
+        text-decoration: underline;
+        color: #FFFFFF;
     }
 
 /* A partir de aqui es el css del Footer */
