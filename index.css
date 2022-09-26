@@ -10,12 +10,6 @@ body{
     
     background-color: #bae8e8;
 }
-/* .bar1 {
-    width: 80%;
-    margin: 0 auto;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-} */
 
 .contenido {
     background-color: #bae8e8;
@@ -97,38 +91,16 @@ body{
     grid-template-columns: 2fr 1fr;
     column-gap: 10px;
     max-width: 992px;
-    margin: 50px 20px 0 40px;    
+    margin: 30px 20px 0 40px;    
     height:calc(100vh - 80px);
 }
 /* a partir de aqui css para el contenido  */
 .textoInicio {
-    /* color: #FFFFFF; */
+    margin-top: 50px;
 }
-
-/* .bar2 {
-    margin: 10px 0;
-    width: 60%;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-}
-
-.bar3{
-    margin: 20px 0;
-    width: 80%;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-} */
-
-/* .bar4 {
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 100px;
-    border: 1px solid #FFFFFF;
-    border-radius: 10px;
-} */
 
 .textoInicio2 {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .presentacion {
@@ -162,14 +134,14 @@ body{
 }
 
 .imgPerfil>img {
-    width: 300px;
+    width: 250px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 5px;
     /* margin-right: 20px; */
 }
 
 .contactos{
-    margin-top: 70px;
+    margin-top: 30px;
     text-align: center;
     font-size: 60px;
 }
@@ -194,64 +166,37 @@ body{
 
 /* A partir de aqui es el css de Proyectos */
 
-.contentProyect {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 10px;
-    max-width: 992px;
-    margin: 10px 20px 0 40px;    
-    min-height: calc(100vh - 80px - 244px);
-    }
+.tituloProyectos{
+    font-size: 50px;
+    margin: 80px 20px 0 40px;
+}
 
-    .carrusel {
+.titulosPro{
+    font-size: 24px;
+    margin: 50px 15% 0 70px;
+    margin-left: 10%;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.descripPro{
     display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    max-width: 600px;
-    gap: 10px;
-    }
+}
 
-    .carrusel ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    }
+.textoProyectos{
+    font-size: 24px;
+    margin: 50px 10% 0 70px;
+    margin-left: 10%;
+    line-height: 30px;
+}
 
-    .carruselFotos {
-    display: flex;
-    gap: 20px;
-    overflow: hidden;
-    object-fit: contain;
-    }
-
-    .fotosCarrusel {
-    width: 550px;
-    height: 450px;
-    margin-left: 20px;
-    /* border-radius: 15px; */
-    border: 3px solid darkslategrey;
-    border-radius: 10px;
-    margin-right: 5px;
-    }
-
-    .carruselMenu{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    }
-
-    .fotosCarruselMenu {
-    width: 80px;
-    height: 70px;
-    border: 10px solid darkslategrey;
+.imgProyectos{
+    width: 320px;
+    height: 320px;
     border-radius: 5px;
-    /* border-radius: 15px; */
-    }
+}
 
-    .fotosCarruselMenu:hover {
-    border: none;
-    }
+
 
 /* A partir de aqui es el css de Sobre Mi */
     .sobreMi{
@@ -310,13 +255,10 @@ footer>div{
     color: #FFFFFF;
 }
 
-.iCorazon {
-    font-size: 15px;
-}
 
 
 /*?------------------------MOBILE---------------------------- */
-@media (max-width: 768px) {
+@media (max-width: 960px) {
     hr {
         display: none;
     }
@@ -363,9 +305,6 @@ footer>div{
     }
     /*------------------------- Aqui empieza Inicio M---------------------------------------------*/
     
-    body {
-    }
-
     .header {
         position: fixed;
         background-color: #2c698d;
