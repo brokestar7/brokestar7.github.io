@@ -194,6 +194,7 @@ body{
     width: 320px;
     height: 320px;
     border-radius: 5px;
+    margin: 0 auto;
 }
 
 
@@ -259,9 +260,7 @@ footer>div{
 
 /*?------------------------MOBILE---------------------------- */
 @media (max-width: 960px) {
-    hr {
-        display: none;
-    }
+
 
     .logo {
         font: 25px;
@@ -327,34 +326,23 @@ footer>div{
         margin-top: 10px;
     }
 
-    .imgPerfil {
-        margin: 0 auto;
-        order: -1;
-        margin-bottom: 30px;
+    .imgPContainer {
+        
     }
 
     /* Aqui empieza Carrusel M */
     
-    .carrusel {
-        max-width: 450px;
-        margin: 0 auto;
+    .descripPro{
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 
-    .carruselMenu {
-        display: none;
+    .imgProyectos{
+        margin-top: 40px;
     }
 
-    .carruselFotos {
-        overflow: auto;
-    }
-    .fotosCarrusel {
-        width: 420px;
-        height: 320px;
-        
+    .textoProyectos{
+        margin-top: 40px;
     }
 
-    .contentProyect {
-        margin: 100px 20px 0 40px;    
-        min-height: calc(100vh - 18px - 244px);
-    }
 }
