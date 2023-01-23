@@ -39,9 +39,14 @@ body{
     color: #2c698d;
     font-weight: bold;
 }
+
+.navLink:hover {
+    color: #2c698d;
+}
+
 .navLink:active,.navLink:visited{
     text-decoration: none;
-    color: #2c698d;
+    /* color: #2c698d; */
 }
 
 .logo{
@@ -82,7 +87,7 @@ body{
 
 .navSpan:hover{
     padding-bottom: 4px;
-    border-bottom: 4px solid #2c698d;
+    border-bottom: 4px solid #B5837F;
 }
 /*------------------------ A partir de aqui es el Estilo del Inicio ------------------------------------------*/
 .inicio {
@@ -108,6 +113,8 @@ body{
     font-weight: bold;
     line-height: 38px;
     margin: 20px 0;
+    color: #B5837F;
+
 }
 
 .linea1 {
@@ -147,19 +154,20 @@ body{
 }
 .enlaceContacto:visited,.enlaceContacto:active,.enlaceContacto:link{
     text-decoration: none;
-    color: #2c698d;
+    color: #EB9981;
 }
 .enlaceProyecto{
-    color: #2c698d;
+    color: #B5837F;
     text-decoration: underline;
 }
 
 .enlaceProyecto:active,.enlaceProyecto:visited{
-    color: #2c698d;
+    color: #B5837F;
 }
 
 .icoContactos{
     margin: 15px;
+    color: #EB9981;
 }
 
 
@@ -169,6 +177,7 @@ body{
 .tituloProyectos{
     font-size: 50px;
     margin: 80px 20px 0 40px;
+    color: #B5837F;
 }
 
 .titulosPro{
@@ -207,6 +216,7 @@ body{
     .tituloSobreMi{
         font-size: 50px;
         margin: 80px 20px 0 40px;
+        color: #B5837F;
     }
     .textoSobreMi{
         font-size: 24px;
